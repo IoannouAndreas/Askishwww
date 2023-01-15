@@ -1,0 +1,71 @@
+/* Hide the side menu elements by default */
+.side-menu {
+    display: none;
+  }
+  
+  /* Style the main menu */
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav a:hover {
+    background-color: lightgray;
+  }
+  
+  /* Style the side menu */
+  aside {
+    float: left;
+    width: 1500px;
+  }
+  
+  aside p {
+    text-align: left;
+  }
+
+  aside h3 {
+    text-align: center;
+  }
+  
+  aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  aside li {
+    margin: 10px 0;
+  }
+  
+  aside a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  aside a:hover {
+    background-color: lightgray;
+  }
+  
+  /* Style the main section */
+  main {
+    clear: both;
+    padding: 20px;
+  }

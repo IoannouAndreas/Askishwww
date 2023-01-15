@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <title>Antoine de Saint-Exupéry</title>
+        <link rel="stylesheet" type="text/css" href="WebCss.css">
+        <script src="WebJS.js"></script>        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#biography">Biography</a></li>
+                    <li><a href="#photos">Photos</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#links">Links</a></li>
+                    <li><a href="#management">Management</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside>           
+              
+              <div id="biography-menu" class="side-menu">
+                <h3>Biography</h3>
+                <ul>
+                  <li><a href="#" onclick="toggleErlylife()">Early Life</a></li>
+                  <p id="early-life-paragraph" style="display:none;">Saint-Exupéry was born in Lyon to an aristocratic Catholic family that could trace its lineage back several centuries, whose name ultimately references the 5th-century bishop Saint Exuperius. He was the third of five children of the Viscountess Marie de Fonscolombe and Viscount Jean de Saint-Exupéry (1863–1904). His father, an executive of the Le Soleil (The Sun) insurance brokerage, died of a stroke in the train station of La Foux before his son's fourth birthday. His father's death affected the entire family, transforming their status to that of 'impoverished aristocrats'.</p>
+                  <li><a href="#" onclick="toggleCareer()">Career</a></li>
+                  <p id="career-paragraph" style="display:none;">Saint-Exupéry's first novella, L'Aviateur (The Aviator), was published in 1926 in a short-lived literary magazine Le Navire d'Argent (The Silver Ship). In 1929, his first book, Courrier Sud (Southern Mail) was published; his career as an aviator and journalist was about to begin. That same year, Saint-Exupéry flew the Casablanca—Dakar route.[citation needed]
+                    The 1931 publication of Vol de nuit (Night Flight) established Saint-Exupéry as a rising star in the literary world. It was the first of his major works to gain widespread acclaim and won the prix Femina. The novel mirrored his experiences as a mail pilot and director of the Aeroposta Argentina airline, based in Buenos Aires, Argentina. That same year, at Grasse, Saint-Exupéry married Consuelo Suncin (née Suncín Sandoval), a once-divorced, once-widowed Salvadoran writer and artist, who possessed a bohemian spirit and a "viper's tongue".
+                    Saint-Exupéry, thoroughly enchanted by the diminutive woman, would leave and then return to her many times—she was both his muse and, over the long term, the source of much of his angst. It was a stormy union, with Saint-Exupéry travelling frequently and indulging in numerous affairs, most notably with the Frenchwoman Hélène de Vogüé (1908–2003), known as "Nelly" and referred to as "Madame de B." in Saint-Exupéry biographies.[26][Note 2] Vogüé became Saint-Exupéry's literary executrix after his death and also wrote her own Saint-Exupéry biography under a pseudonym, Pierre Chevrier.            
+                    Saint-Exupéry continued to write until the spring of 1943, when he left the United States with American troops bound for North Africa in the Second World War.</p>
+                </ul>
+              </div>
+            <div id="photos-menu" class="side-menu">
+                <h3>Photos</h3>
+                <ul>
+                    <li><a href="#" onclick="togglePersonalPhotos()">Personal</a></li>
+                    <li><a href="#" onclick="toggleProfessionalPhotos()">Professional</a></li>
+                  </ul>
+                  <div id="personal-photos" style="display:none;">
+                    <img src="personal1.jpg" alt="Personal Photo 1">
+                    <img src="personal2.jpg" alt="Personal Photo 2">
+                  </div>
+                  <div id="professional-photos" style="display:none;">
+                    <img src="professional1.jpg" alt="Professional Photo 1">
+                    <img src="professional2.jpg" alt="Professional Photo 2">
+                  </div>
+                </div>
+
+            <div id="projects-menu" class="side-menu">
+                <h3>Projects</h3>
+                <li><a href="#" onclick="toggleWritingProjects()">Writing</a></li>
+                <li><a href="#" onclick="toggleOtherProjects()">Other</a></li>
+            </ul>
+            <ul id="writing-projects" style="display:none;">
+                <li>Citadelle (1948) (titled in English: as The Wisdom of the Sands) – winner of the Prix des Ambassadeurs</li>
+                <li>Lettres à une jeune fille (1950)</li>
+                <li>Lettres de jeunesse, 1923–1931 (1953)</li>
+                <li>Lettres à l'amie inventée (1953)</li>
+                <li>Carnets (1953)</li>
+                <li>Lettres à sa mère (1955)</li>
+                <li>Un sens à la vie (1956), (A Sense of Life)</li>
+                <li>Lettres de Saint-Exupéry (1960)</li>
+                <li>Lettres aux américains (1960)</li>
+                <li>Écrits de guerre, 1939–1944 (1982) (Wartime Writings, 1939–1944)</li>
+                <li>Manon, danseuse (2007)</li>
+                <li>Lettres à l'inconnue (992)</li>
+            </ul>
+            <ul id="other-projects" style="display:none;">
+                <li>"Une Lettre de M. de Saint-Exupéry", Les Annales politiques et littéraires, 15 December 1931; (extracts from a letter written to Benjamin Crémieux).</li>
+                <li>Preface of Destin de Le Brix by José le Boucher, Nouvelle Librairie Française, 1932.</li>
+                <li>Preface of Grandeur et servitude de l'aviation by Maurice Bourdet, Paris: Editions Corrêa, 1933.</li>
+                <li>"Reflections on War", translated from Paris-Soir and published in Living Age, November 1938, pp. 225–228.</li>
+                <li>Preface of Vent se lève (French translation of Listen! The Wind) by Anne Morrow Lindbergh, Paris: Editions Corrêa, 1939</li>
+                <li>Preface of Pilotes d'essai by Jean-Marie Conty, Paris: Edition Spes, 1939.</li>
+                <li>"Books I Remember", Harper's Bazaar, April 1941.</li>
+                <li>"Letter to Young Americans", The American High School Weekly, 25 May 1942, pp. 17–18.</li>
+                <li>"Voulez-vous, Français, vous reconcilier?", Le Canada, de Montreal, 30 November 1942.</li>
+                <li>"L'Homme et les éléments", Confluences, 1947, Vol. VII, pp. 12–14 (issue dedicated to Saint-Exupéry; originally published in English in 1939 as 'The Elements' in Wind, Sand and Stars).</li>
+                <li>"Lettre Inédite au General C", Le Figaro Littéraire, 10 April 1948 (posthumous).</li>
+                <li>"Seigneur Berbère", La Table Ronde, No. 7, July 1948 (posthumous).</li>
+                
+            </ul>
+            </div>
+            <div id="links-menu" class="side-menu">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#" onclick="togglelinkBIO()">Bibliography</a></li>
+                    <p id="link-bio" style="display:none;">https://en.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry#Published_posthumously</p>
+                    <li><a href="#references">References</a></li>
+                    <li><a href="#web-links">Web Links</a></li>
+                </ul>
+            </div>
+            <div id="management-menu" class="side-menu">
+                <h3>Management</h3>
+                <ul>
+                    <li><a href="#connection">Connection</a></li>
+                    <div class="log-form">
+                        <h2>Login to your account</h2>
+                        <form>
+                          <input type="text" title="username" placeholder="username" />
+                          <input type="password" title="username" placeholder="password" />
+                          <button type="submit" class="btn">Login</button>
+                          <a class="forgot" href="#">Forgot Username?</a>
+                        </form>
+                      </div>
+                    <li><a href="#log-out">Log Out</a></li>
+                    <li><a href="#project-management">Project Management</a></li>
+                    <li><a href="#manage-links">Manage Links</a></li>
+                </ul>
+            </div>
+        </aside>
+        <main>
+            <div id="biography">
+
+
+</html>
